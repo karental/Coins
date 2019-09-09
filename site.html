@@ -1,0 +1,82 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <title>Coins</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+
+    <!--    <link rel='icon' href='data:image/png;base64,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' type='image/x-icon'> -->
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    
+
+    <link rel="stylesheet" type="text/css" href="site.css">
+</head>
+
+<body onload="getCoins()">
+    <div class="parallaxPic">
+        <div class="captionC">
+            <span class="titleMain">CryptoCurrency</span>
+        </div>
+    </div>
+    <div class="container"> 
+        <div class="card">
+            <h1 class="card-header">Cryptonite</h1>
+            <nav class="nav nav-p
+            ills nav-justified">
+                <a class="nav-link active home" href="#">Home</a>
+                <a class="nav-link" href="#chartContainer" onclick='liveReports()'>Live Reports</a>
+                <a class="nav-link" href="karen.html"  target="_blank">About</a>
+                <div class="searchButton" >
+                    <input id="searchInput" type="text" class="form-control" placeholder="Search" aria-label="" aria-describedby="basic-addon1">
+                    <button type="button" class="btn btn-primary search nav-button" onclick="search()">Search</button>
+                    <button type="button" class="btn btn-primary nav-button" onclick="getCoins()">Show All</button>
+                </div>
+            </nav>
+        </div>  
+        <div id='progressBar'>
+            <div id='myBar'>Loading..</div>
+        </div>
+        <span id="coinCards">
+        </span>
+    </div>
+    <div id="chartContainer" style="height: 370px; width: 90%; height: 700px; margin-top: 50px; margin-bottom: 20px;"></div>
+        <div class="modal" id="myModal">
+            <div class="modal-dialog">
+                <div class="modal-content">
+
+                    <div class="modal-header">
+                        <h1 class="modal-title">CryptoCompare</h1>
+                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    </div>
+
+                    <div class="modal-body">
+                        <h5> You can pick up to 5 coins for a Crypto compare. </h5>
+                       <h7> Which coin would you want to delete?</h7>
+                        <div id='delete'>
+                            <span class="span-delete"></span>
+                        </div>
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">Done</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="https://canvasjs.com/assets/script/jquery-1.11.1.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/jquery.canvasjs.min.js"></script>
+    <script src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="site.js"></script>
+</body>
+
+</html>

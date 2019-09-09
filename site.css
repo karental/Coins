@@ -1,0 +1,213 @@
+.container{
+  width: 2000px;
+  margin: auto;
+}
+.card-header{
+  font-size: 50px;
+  padding: 20px;
+}
+.nav{
+  padding: 15px;
+  font-size: 20px;
+}
+body{
+  background-color: rgba(248, 248, 248, 0.671);
+}
+.span-delete{
+  font-size: 20px;
+  width: 140px;
+  margin: auto;
+}
+.nav-button{
+  margin-left: 10px;
+}
+.home{
+  height: 50px;
+}
+.aboutContainer{
+  margin-top: 40px;
+}
+.about{
+  padding: 10px;
+  text-align:center;
+}
+.center{
+  margin:auto;
+  display: table;
+}
+.theFlag{
+  margin-top: 30px;
+  margin-right:20px;
+  float:right;
+}
+#progressBar {
+  width: 50%;
+  background-color: lightgrey;
+  border: 2px black;
+  border-radius: 5px;
+  margin:auto;
+}
+.about-class{
+  background-color:  rgba(253, 253, 253, 0.788);
+}
+.karen-image{
+  display: block;
+  margin-left: auto;
+  margin-top:20px;
+  margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color: #007bff;
+  border-color: 2px black;
+  color: white;
+  border-radius: 5px;
+text-align: center;
+}
+.progressInfoBar {
+  width: 80%;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin:auto;
+}
+
+.myInfoBar {
+  width: 1%;
+  height: 10px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+text-align: center;
+}
+#coinCards{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+#chartContainer{
+  margin: auto;
+}
+.modal-button{
+  margin-left:20px;
+  float: right;
+}
+.parallaxPic {
+  /* The image used */
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/10141553/thumb/1.jpg");
+
+  /* Set a specific height */
+  min-height: 710px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.8;
+  margin: 7.4px;
+
+}
+.captionC{
+position: absolute;
+left: 0;
+top: 50%;
+width: 100%;
+text-align: center;
+color: #000;
+opacity: 1;
+}
+.captionC span.titleMain {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 50px;
+  letter-spacing: 12px;
+  opacity: 1;
+
+}
+.searchButton{
+  display: flex;
+  float: right;
+  height: 37px;
+  margin-top: 6px;
+  bottom: 0;
+}
+
+.sr-only {
+  width: 20px;
+  height: 30px;
+  float: right;
+}
+.card{
+    margin: 17px;
+    box-shadow: 0 4px 8px 0 rgb(224, 224, 224), 0 6px 20px 0 rgb(224, 224, 224);
+
+}
+/* toggle button css */
+.switch {
+  float: right;
+    position: relative;
+    display: inline-block;
+    width: 33px;
+    height: 19px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 2.5px;
+    bottom: 2.5px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(14px);
+    -ms-transform: translateX(14px);
+    transform: translateX(14px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  /* end toggle button css */
